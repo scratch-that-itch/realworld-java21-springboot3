@@ -6,3 +6,5 @@ include(":module:core", ":module:persistence")
 // Include the server module
 include(":realworld")
 project(":realworld").projectDir = file("server/api")
+
+include("module:java_features")
